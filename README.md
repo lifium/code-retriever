@@ -52,19 +52,15 @@ Once the script runs, it will:
 #### Example output:
 
 ```
-Enter the title or keywords for your search:
-big breasts yuri harem full color
-How many pages do you want to scrape?
-100
-Enter delay (in seconds) between requests:
-0.5
-Fetching page 1: https://nhentai.net/search/?q=big+breasts+yuri+harem+full+color&page=1
-Fetching page 2: https://nhentai.net/search/?q=big+breasts+yuri+harem+full+color&page=2
-Fetching page 3: https://nhentai.net/search/?q=big+breasts+yuri+harem+full+color&page=3
-Fetching page 4: https://nhentai.net/search/?q=big+breasts+yuri+harem+full+color&page=4
-No codes found on page 4. Stopping iteration.
-Retrieved 63 Codes:
-540232 538466 537562 536847 534437 532622 531862 531420 529266 527232 524400 523282 521560 515888 512554 506511 506240 504337 503125 502633 501759 500794 497640 494683 488164 479476 479222 469932 460596 452780 444062 441520 436707 411045 402570 394629 380769 369519 321747 318861 298765 296887 296531 284406 272344 271317 260333 256848 256678 250975 247896 244327 244326 214494 213063 211680 188746 188085 174791 172524 80035 4590 3406
+Fetching page 1: https://nhentai.net/search/?q=ibuki+no+gotoku&page=1
+Fetching page 2: https://nhentai.net/search/?q=ibuki+no+gotoku&page=2
+No codes found on page 2. Stopping iteration.
+Retrieved 5 Codes:
+404504
+400813
+256016
+201866
+4311
 ```
 
 ## Troubleshooting
