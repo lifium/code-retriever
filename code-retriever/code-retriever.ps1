@@ -80,7 +80,7 @@ $Results = Fetch-NhentaiCodes -SearchQuery $SearchQuery -MaxPages $MaxPagesToScr
 # Print the results
 if ($Results.Count -gt 0) {
     Write-Host ("Retrieved {0} Codes:" -f $Results.Count)
-    Write-Host ($Results -join " ")  # Print all codes in a single line with spaces
+    $Results | ForEach-Object { Write-Host $_ }
 } else {
     Write-Host "No results found or failed to fetch codes."
 }
