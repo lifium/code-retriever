@@ -78,10 +78,11 @@ if __name__ == "__main__":
         # Fetch the numeric codes
         results = fetch_nhentai_codes(search_query, max_pages_to_scrape, delay_between_requests)
 
-# Print the retrieved codes
-if results:
-    print(f"Retrieved {len(results)} Codes:")
-    print(" ".join(results))  # Print all codes in a single line separated by spaces
-else:
-    print("No results found or failed to fetch codes.")
+        # Print the retrieved codes
+        if results:
+            print(f"Retrieved {len(results)} Codes:")
+            for code in results:
+                print(code)
+        else:
+            print("No results found or failed to fetch codes.")
 
