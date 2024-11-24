@@ -18,9 +18,9 @@ Press Win + R, type powershell, and press Enter to open the PowerShell terminal.
 
 ### Step 2: Enable Script Execution
 
-By default, PowerShell may block script execution for security reasons. To enable script execution:
+By default, PowerShell may block script execution for security reasons. To enable script execution, open PowerShell as Administrator and run:
 
-`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
+`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
 
 - Note: You can revert this policy later using:
 
